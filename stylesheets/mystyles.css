@@ -1,3 +1,39 @@
 body header h1 {
   font-size: 4em;
 }
+
+#navbar {
+  margin: 0 auto;
+}
+
+nav a {
+  color: white;
+}
+
+#skills, #work {
+  float: left;
+}
+
+#skills {
+  margin-right: 8%;
+}
+
+#work {
+  width: 50%;
+}
+
+aside {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  background: rgba(113,119,41,.5);
+  width: 30%;
+  text-align: center;
+}
+.aside-bold {
+  text-decoration: underline;
+}
+/*#psu {
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}*/
