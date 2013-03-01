@@ -2,6 +2,10 @@ body header h1 {
   font-size: 4em;
 }
 
+body header h1 a {
+  color: white;
+}
+
 #navbar {
   margin: 0 auto;
 }
@@ -26,14 +30,10 @@ aside {
   position: absolute;
   right: 0;
   top: 100px;
-  background: rgba(113,119,41,.5);
+  background: rgb(113,119,41) rgba(113,119,41,.5);
   width: 30%;
   text-align: center;
 }
 .aside-bold {
   text-decoration: underline;
 }
-/*#psu {
-  border-bottom: 2px solid black;
-  padding-bottom: 20px;
-}*/
