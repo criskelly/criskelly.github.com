@@ -1,3 +1,9 @@
+
+/* LAYOUT STYLES ================== */
+
+
+/* HEADER STYLES ================== */
+
 body header h1 {
   font-size: 4em;
 }
@@ -14,6 +20,8 @@ nav a {
   color: white;
 }
 
+/* TECH SKILLS STYLES ================== */
+
 #skills, #work {
   float: left;
 }
@@ -21,19 +29,36 @@ nav a {
 #skills {
   margin-right: 8%;
 }
+#skills h3 {
+  opacity: .7;
+}
+
+/* CENTER COLUMN STYLES ================== */
 
 #work {
   width: 50%;
 }
 
+/* RIGHT COLUMN STYLES ================== */
+
 aside {
   position: absolute;
   right: 0;
   top: 100px;
-  background: rgb(113,119,41) rgba(113,119,41,.5);
   width: 30%;
   text-align: center;
+  margin-top: -100px;
 }
 .aside-bold {
   text-decoration: underline;
+}
+.edu-specs {
+  background: #E5E5E5;
+  color: black;
+  border: 1px dashed black;
+
+}
+.linked-logo, .pcs-logo {
+  margin: 25px auto 0 auto;
+  width: 50%;
 }
